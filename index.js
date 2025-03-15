@@ -1,7 +1,7 @@
 function startCelebration() {
     let name = document.getElementById("name").value.trim();
     let dob = document.getElementById("dob").value;
-    if (name !== "Đào Minh Đức" || dob !== "2023-03-25") {
+    if (name !== "Đào Đức Minh" || dob !== "2023-03-25") {
       alert("Sai thông tin! Vui lòng nhập lại.");
       return;
     }
@@ -109,7 +109,7 @@ function startCelebration() {
         name = document.getElementById("name").value.trim();
         dob = document.getElementById("dob").value.trim();
 
-        if (name === "Đào Minh Đức" && dob === "2023-03-25") {
+        if (name === "Đào Đức Minh" && dob === "2023-03-25") {
             break;
         } else {
             alert("Sai thông tin! Vui lòng nhập lại.");
